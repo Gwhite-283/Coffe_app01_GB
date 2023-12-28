@@ -31,15 +31,15 @@ export default function HomeScreen() {
           <View className="flex-row items-center space-x-2">
             <MapPinIcon size="25" color={themeColors.bgLight} />
             <Text className="font-semibold text-base">
-              New York, NYC
+              Buenos Aires, ARG
             </Text>
           </View>
           <BellIcon size="27" color="black" />
         </View>
-        {/* search bar */}
+        {/* Barra de busqueda */}
         <View className="mx-5 shadow" style={{marginTop: height*0.06}}>
           <View className="flex-row items-center rounded-full p-1 bg-[#e6e6e6]">
-            <TextInput placeholder='Search' className="p-4 flex-1 font-semibold text-gray-700" />
+            <TextInput placeholder='Elige tu café' className="p-4 flex-1 font-semibold text-gray-700" />
             <TouchableOpacity 
               className="rounded-full p-2" 
               style={{backgroundColor: themeColors.bgLight}}>

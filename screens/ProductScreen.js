@@ -118,7 +118,7 @@ export default function FavouriteScreen(props) {
             </TouchableOpacity>
             <TouchableOpacity 
               style={{backgroundColor: themeColors.bgLight}} 
-              className="p-4 rounded-full flex-1 ml-4">
+              className="p-4 rounded-full flex-1 ml-4" onPress={()=> navigation.goBack()}>
               <Text className="text-center text-white text-base font-semibold">Buy now</Text>
             </TouchableOpacity>
           </View>
